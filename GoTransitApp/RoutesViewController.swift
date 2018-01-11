@@ -1,13 +1,18 @@
+//
+//  RoutesViewController.swift
+//  GoTransitApp
+//
+//  Created by Robert Argume on 2018-01-10.
+//  Copyright © 2018 GoTransit. All rights reserved.
+//
+
 import UIKit
 
-class ViewController: UIViewController {
-    // Private variables
-    private var cellPointSize: CGFloat!
-    private static let taskCell = "TaskName"
-    
+class RoutesViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Update color for navigactino bar
         navigationController?.navigationBar.barTintColor = Constants.Color.tintColorForNavigationBar
         navigationController?.navigationBar.tintColor = UIColor.white
@@ -23,5 +28,6 @@ class ViewController: UIViewController {
         // Modify the text for the default "Back Button" in the navigation bar
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil,  action: nil)
     }
+
 
 }
