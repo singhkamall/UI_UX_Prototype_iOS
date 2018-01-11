@@ -30,5 +30,42 @@ class CreateRouteViewController: UIViewController {
     }
 
   
-
+    @IBAction func onCreateButtonPressed(_ sender: UIButton) {
+        let title = "\n\n\nRide Created Successfully !!"
+        
+        let message = ""
+        
+        let image = UIImage(named: "Success")
+        
+        let  alert = UIAlertController(
+            title: title,
+            message: message,
+            preferredStyle: .alert)
+        
+        let action = UIAlertAction(
+            title: "Okay",
+            style: .default,
+            handler: nil)
+        
+        
+        //action.setValue(image, forKey: "image")
+        
+        let imageView = UIImageView(frame: CGRectMake(117, 20, 40, 40))
+        imageView.image = image
+        
+        alert.view.addSubview(imageView)
+        
+        alert.addAction(action)
+        
+        present(alert, animated: true, completion: nil)
+        
+        
+        
+     
+    }
+    
+    func CGRectMake(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat) -> CGRect {
+        return CGRect(x: x, y: y, width: width, height: height)
+    }
+    
 }
