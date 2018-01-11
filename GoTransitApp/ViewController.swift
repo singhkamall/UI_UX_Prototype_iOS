@@ -9,7 +9,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Update color for navigactino bar
-        navigationController?.navigationBar.barTintColor = Constants.Color.tintColorForNavigationBar
         navigationController?.navigationBar.tintColor = UIColor.white
         
         let attrs = [

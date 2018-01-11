@@ -1,5 +1,5 @@
 //
-//  RoutesViewController.swift
+//  CreateRouteViewController.swift
 //  GoTransitApp
 //
 //  Created by Robert Argume on 2018-01-10.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class RoutesViewController: UIViewController {
+class CreateRouteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "GO Transit"
-        self.navigationItem.backBarButtonItem?.title = "Back"
 
         // Update color for navigactino bar
         navigationController?.navigationBar.tintColor = UIColor.white
@@ -30,5 +29,6 @@ class RoutesViewController: UIViewController {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil,  action: nil)
     }
 
+  
 
 }

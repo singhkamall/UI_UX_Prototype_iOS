@@ -15,6 +15,7 @@
 		E171E7822006D2E600B02634 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171E7812006D2E600B02634 /* Constants.swift */; };
 		E171E7842006D38900B02634 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171E7832006D38900B02634 /* Utils.swift */; };
 		E171E7862006E3EF00B02634 /* RoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171E7852006E3EF00B02634 /* RoutesViewController.swift */; };
+		E171E7882006E5C000B02634 /* CreateRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171E7872006E5C000B02634 /* CreateRouteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E171E7812006D2E600B02634 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E171E7832006D38900B02634 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		E171E7852006E3EF00B02634 /* RoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewController.swift; sourceTree = "<group>"; };
+		E171E7872006E5C000B02634 /* CreateRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRouteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				C7318ECB2002AD6600FDD68E /* LaunchScreen.storyboard */,
 				C7318ECE2002AD6600FDD68E /* Info.plist */,
 				E171E7852006E3EF00B02634 /* RoutesViewController.swift */,
+				E171E7872006E5C000B02634 /* CreateRouteViewController.swift */,
 			);
 			path = GoTransitApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				C7318EC52002AD6600FDD68E /* ViewController.swift in Sources */,
 				C7318EC32002AD6600FDD68E /* AppDelegate.swift in Sources */,
+				E171E7882006E5C000B02634 /* CreateRouteViewController.swift in Sources */,
 				E171E7822006D2E600B02634 /* Constants.swift in Sources */,
 				E171E7842006D38900B02634 /* Utils.swift in Sources */,
 				E171E7862006E3EF00B02634 /* RoutesViewController.swift in Sources */,
